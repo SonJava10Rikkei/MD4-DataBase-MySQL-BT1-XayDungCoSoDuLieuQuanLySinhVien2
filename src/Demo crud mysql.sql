@@ -3,7 +3,7 @@ SELECT * FROM java10.students;
 --  Tạo bảng
 create database java10;
 
--- chọn hiển thị bảng
+-- chọn hiển thị bảngg
 select *from students;
 
 -- Chọn hiển thị một cột trong bảng
