@@ -6,7 +6,7 @@ create database java10;
 -- chọn hiển thị bảngg
 select *from students;
 
--- Chọn hiển thị một cột trong bảng
+-- Chọn hiển thị một cột trong bảngg
 select name from students;
 
 --  hiển thị cột mong muốn xem
