@@ -1,5 +1,3 @@
-SELECT * FROM java10.students;
-
 --  Tạo bảng
 create database java10;
 
@@ -19,7 +17,7 @@ id int not null auto_increment primary key, -- không được bằng null và i
 name varchar(255),
 age int
 ); 
-drop table students;
+
 -- thêm all dữ liệu 
 insert into students(name) value("huy");
 insert into students(id,name,age) value(1,"son",16);
@@ -43,6 +41,8 @@ set gender = "nu",
 address = "bac ninh"
 where id = 2;
 
+-- Xóa bảng
+drop table students;
 
 --  Xóa cột
 alter table students drop gender;
@@ -51,4 +51,3 @@ alter table students drop phone;
 --  xóa dòng
 delete from students where id = 1;
 insert into students(name,age) value('huy11',15);
-
